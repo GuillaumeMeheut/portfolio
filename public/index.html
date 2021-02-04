@@ -1,43 +1,230 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Découvrez qui est Guillaume Meheut et ses création à travers ce portfolio"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <meta
+      name="keywords"
+      content="guillaume,meheut,guillaume meheut,portfolio,developpeur,design,site web,HTML,CSS,JavaScript"
+    />
+    <meta name="author" content="Guillaume Meheut" />
+    <title>Guillaume Meheut</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Lato:ital,wght@0,300;0,400;1,300;1,400;1,900&family=Nova+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reboot.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="google-site-verification" content="MSVmdzoueqal1zSFtF3bqshtaCYTX_hIOtS0uOp5wos" />
+
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  <body class="to-observe">
+    <span class="left_line"></span>
+    <span class="left_line_fond"></span>
+    <canvas></canvas>
+    <!-- Menu navigation -->
+    <nav class="menu">
+      <ul class="menu_list">
+        <li class="menu_item">
+          <a class="menu_link" href="#home">Accueil</a>
+        </li>
+        <li class="menu_item">
+          <a class="menu_link" href="#skills">Compétences</a>
+        </li>
+        <li class="menu_item">
+          <a class="menu_link" href="#works">Portfolio</a>
+        </li>
+        <li class="menu_item">
+          <a class="menu_link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Fin menu navigation -->
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <!--Début section home  -->
+    <header id="home" class="to-observe">
+      <div class="h1_container"><h1>Guillaume Meheut</h1></div>
+      <h2>développeur fullstack</h2>
+      <div class="absolute_title_numero absolute_title_numero_home">
+        <h3>Accueil</h3>
+        <p class="numero">01</p>
+      </div>
+      <div class="multilines_bloc_home to-observe">
+        <h4 class="title_home title_home_whoiam">QUI SUIS-JE ?</h4>
+        <div class="trait traitA traitA_home"></div>
+        <div class="trait traitB traitB_home"></div>
+        <div class="trait traitC traitC_home"></div>
+        <p class="text_home">
+          Salut ! Je me présente je suis
+          <strong>Guillaume Meheut</strong> actuellement j'étudie le
+          <strong>DUT Métiers du Multimédia et de l’Internet</strong> à l'université de Limoges. Je
+          me suis découvert une réelle passion pour le <strong>développement Web</strong> et le
+          <strong>design UI/UX</strong>. Je suis curieux de nature ce qui me permet d'assimiler
+          constamment de nouvelles connaissances. Je vais à travers ce
+          <strong>portfolio</strong> vous faire part de mes <strong>compétences</strong> et
+          également de mes <strong>créations</strong>.
+        </p>
+      </div>
+      <span class="middle_line middle_line_home"></span>
+    </header>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <!--Fin section home  -->
+
+    <!--Début section skills  -->
+    <section class="main-sections" id="skills">
+      <div class="absolute_title_numero">
+        <h3>compétences</h3>
+        <p class="numero">02</p>
+      </div>
+      <article class="article_skills article_skills_design to-observe">
+        <div class="multilines_bloc_skills">
+          <h4 class="title_skills">Design</h4>
+          <div class="trait traitA traitA1"></div>
+          <div class="trait traitB traitB1"></div>
+          <div class="trait traitClong traitC1"></div>
+          <div class="trait traitB traitB2"></div>
+          <div class="trait traitClong traitC2"></div>
+          <div class="trait traitB traitB3"></div>
+          <div class="trait traitC traitC3"></div>
+          <img
+            class="img_multilines_skills img1"
+            id="photoshop"
+            src="media/photoshop.png"
+            alt="photoshop"
+          />
+          <p class="text_multilines_skills1">
+            Retouche photo, amélioration de la qualité, photo-montage, c’est à cela que me sert
+            <strong>Photoshop</strong> même si ce n’est pas mon outil principal je suis parfois
+            amené à m’en servir.
+          </p>
+          <div class="trait_multilines trait_multilines1"></div>
+          <img
+            class="img_multilines_skills img2"
+            id="illustrator"
+            src="media/illustrator.png"
+            alt="illustrator"
+          />
+          <p class="text_multilines_skills2">
+            <strong>Adobe Illustrator</strong> est l’outil que j’utilise lorsque j’ai besoin d’un
+            dessin précis, long et minutieux à réaliser.
+          </p>
+          <div class="trait_multilines trait_multilines2"></div>
+          <img class="img_multilines_skills img3" id="figma" src="media/figma.png" alt="figma" />
+          <p class="text_multilines_skills3">
+            <strong>Figma</strong>, une alternative a <strong>Adobe XD</strong> est un de mes outils
+            principaux, il me permet d’élaborer des maquettes de sites, de réaliser des dessins
+            rapidement, et de travailler en équipe en simultané.
+          </p>
+          <div class="trait_multilines trait_multilines3"></div>
+        </div>
+      </article>
+
+      <article class="article_skills article_skills_dev to-observe">
+        <div class="multilines_bloc_skills" id="skills_paddingbot">
+          <h4 class="title_skills">Développement</h4>
+          <div class="trait traitA traitA1"></div>
+          <div class="trait traitB traitB1"></div>
+          <div class="trait traitClong traitC1"></div>
+          <div class="trait traitB traitB2"></div>
+          <div class="trait traitClong traitC2"></div>
+          <div class="trait traitB traitB3"></div>
+          <div class="trait traitC traitC3"></div>
+          <img class="img_multilines_skills img1" id="html" src="media/html.png" alt="html" />
+          <p class="text_multilines_skills1">
+            Ma connaissance d’<strong>HTML 5</strong> est particulièrement développée, je sais
+            utiliser les bons termes, aussi bien pour simplifier le code que pour obtenir un bon
+            référencement.
+          </p>
+          <div class="trait_multilines trait_multilines1"></div>
+          <img class="img_multilines_skills img2" id="css" src="media/css.png" alt="css" />
+          <p class="text_multilines_skills2">
+            Grâce à mes compétences en <strong>CSS</strong> j'arrive à styliser et placer les
+            éléments comme je le souhaite.
+          </p>
+          <div class="trait_multilines trait_multilines2"></div>
+          <img
+            class="img_multilines_skills img3"
+            id="javascript"
+            src="media/js.png"
+            alt="javascript"
+          />
+          <p class="text_multilines_skills3">
+            <strong>Javascript</strong> est essentiel pour animer des élements, les mettre à jour et
+            notamment attendre que l'utilisateur produise un événement pour interagir sur notre page
+            web.
+          </p>
+          <div class="trait_multilines trait_multilines3"></div>
+          <div class="skills_button_div">
+            <a
+              class="skills_button_CV"
+              rel="noreferrer"
+              target="_blank"
+              href="./media/CV_Guillaume_MEHEUT.pdf"
+              >CV</a
+            >
+            <span class="skills_button_CV_barre"></span>
+          </div>
+        </div>
+      </article>
+
+      <span class="middle_line"></span>
+    </section>
+
+    <!--Fin section skills  -->
+
+    <!--Début section works  -->
+    <section class="main-sections" id="works">
+      <div class="absolute_title_numero">
+        <h3>Portfolio</h3>
+        <p class="numero">03</p>
+      </div>
+
+      <div id="root"></div>
+
+      <span class="middle_line"></span>
+    </section>
+
+    <!--Fin section works  -->
+
+    <!--Début section contact  -->
+    <section class="main-sections" id="contact">
+      <div class="absolute_title_numero">
+        <h3>Contact</h3>
+        <p class="numero">04</p>
+      </div>
+
+      <form id="form_contact" class="container_contact" action="php/contactform.php" method="post">
+        <div class="form">
+          <label for="contact_name" class="label">votre nom</label>
+          <input type="text" name="name" id="contact_name" autocomplete="off" required />
+        </div>
+        <div class="form">
+          <label for="contact_subject" class="label">Sujet</label>
+          <input type="text" name="subject" id="contact_subject" autocomplete="off" required />
+        </div>
+        <div class="form">
+          <label for="contact_mail" class="label">votre Adresse mail</label>
+          <input type="text" name="mail" id="contact_mail" autocomplete="off" required />
+        </div>
+        <div class="form">
+          <label for="contact_message" class="label">votre message</label>
+          <textarea name="message" id="contact_message"></textarea>
+        </div>
+        <button class="contact_button" type="submit" name="submit">Envoyer</button>
+      </form>
+      <span class="middle_line"></span>
+    </section>
+
+    <!--Fin section contact  -->
+
+    <script src="js/main.js"></script>
+    <script type="module" src="js/canvas/canvas.js"></script>
   </body>
 </html>
