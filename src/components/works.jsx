@@ -10,6 +10,14 @@ class Works extends Component {
       {
         id: 1,
         category: "Développement",
+        title: `Fammily`,
+        description: `Projet scolaire. Application permettant de recenser tout les MMI de Limoges de la promo actuelle et les précédentes, d'obtenir statistique sur leur orientations et également des offres d'emploi publier par les administrateur via une interface admin. Projet en groupe de 4 je me suis occupé du développement et mes camarades du design. (login pour essayer l'appli: "test@gmail.com" "Test12345").`,
+        img: "./media/works_fammily.PNG",
+        link: "https://fammily.herokuapp.com/",
+      },
+      {
+        id: 2,
+        category: "Développement",
         title: `Lol ChampionStats`,
         description: `Projet personel. Utilisation de données extérieurs grâce au framework React NextJS. Le but est de calculer les statistiques et les dégâts des sorts en fonction des objets équipés et ce pour chaque champion. Projet toujours en cours`,
         img: "./media/works_lol.png",
@@ -17,7 +25,7 @@ class Works extends Component {
       },
 
       {
-        id: 2,
+        id: 3,
         category: "Développement",
         title: `Night Visions`,
         description: `Projet scolaire. Les consignes données étaient de concevoir un site web interractif pour un album de musique de notre choix`,
@@ -26,7 +34,7 @@ class Works extends Component {
       },
 
       {
-        id: 3,
+        id: 4,
         category: "Développement",
         title: `Color-Selector`,
         description: `Projet personel. Mon but était de concevoir ma première application React et de comprendre le fonctionnement des states et des props notamment.`,
@@ -35,7 +43,7 @@ class Works extends Component {
       },
 
       {
-        id: 4,
+        id: 5,
         category: "Graphisme",
         title: `Doodle`,
         description: `Projet scolaire. Créations de deux doodles sur des thèmes choisis personnellement.`,
@@ -44,7 +52,7 @@ class Works extends Component {
       },
 
       {
-        id: 5,
+        id: 6,
         category: "Graphisme",
         title: `Adèle`,
         description: `Projet scolaire. Nous devions reprendre une pochette d'album déjà existante sur
@@ -53,7 +61,7 @@ class Works extends Component {
         link: null,
       },
       {
-        id: 6,
+        id: 7,
         category: "Développement",
         title: `Dodge`,
         description: `Projet personel. Mini-jeu où il faut esquiver les balles et ramasser des bonus pour
@@ -64,7 +72,7 @@ class Works extends Component {
         link: "https://d0dge.herokuapp.com/",
       },
       {
-        id: 7,
+        id: 8,
         category: "Web",
         title: `How to rubik's cube`,
         description: `Projet scolaire. Un site web expliquant le fonctionnement du rubik's cube devant être codé en 2 jours.`,
@@ -72,7 +80,7 @@ class Works extends Component {
         link: "https://guillaumemeheut.github.io/Rubiks-cube/",
       },
       {
-        id: 8,
+        id: 9,
         category: "Développement",
         title: `Tic Tac Toe`,
         description: `Projet personel. Le mini-jeu très connue Tic Tac Toe se jouant à 2 joueurs. Ce projet m'as permis d'apprendre à utiliser NodeJS et son framework "Socket.IO".`,
@@ -80,7 +88,7 @@ class Works extends Component {
         link: "https://guillaume-tictactoe.herokuapp.com/",
       },
       {
-        id: 9,
+        id: 10,
         category: "Graphisme",
         title: `Le pilote`,
         description: `Projet scolaire. Une affiche lego dans le style Sachplakat inspiré de "Erdt - Opel"`,
@@ -88,7 +96,7 @@ class Works extends Component {
         link: null,
       },
       {
-        id: 10,
+        id: 11,
         category: "Graphisme",
         title: `L'heureux`,
         description: `Projet scolaire. Une affiche lego dans le style Sachplakat"`,
