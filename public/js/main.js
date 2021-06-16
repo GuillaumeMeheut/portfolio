@@ -1,25 +1,3 @@
-//Fin de changement de couleur
-
-///////////////////////////////////////////
-
-//textarea remplie animation
-
-let mytextarea = document.getElementById("contact_message");
-
-function checkTextarea() {
-  if (mytextarea.value != "") {
-    mytextarea.style.opacity = "1";
-  } else {
-    mytextarea.style.opacity = ".4";
-  }
-}
-
-mytextarea.addEventListener("change", checkTextarea);
-
-//Fin du textarea
-
-///////////////////////////////////////////
-
 //Animation avec observer
 
 function handler(entries, observer) {
