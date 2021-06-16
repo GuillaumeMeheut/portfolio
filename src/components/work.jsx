@@ -23,7 +23,12 @@ class Work extends Component {
     return (
       <div className="container">
         <figure className="work_container">
-          <img className={this.props.classScale} src={this.props.img} alt={this.props.title} />
+          <div
+            className={"caption_image " + this.props.classScale}
+            style={{
+              backgroundImage: `url("${this.props.img}")`,
+            }}
+          ></div>
           <figcaption className="caption_container">
             <h5 className={"caption_title " + this.props.classTranslate}>{this.props.title}</h5>
             <p className={"caption_desc " + this.props.classTranslate}>{this.props.description}</p>
