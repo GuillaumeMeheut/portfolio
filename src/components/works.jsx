@@ -28,7 +28,7 @@ class Works extends Component {
         id: 3,
         category: "Développement",
         title: `Night Visions`,
-        description: `Projet scolaire. Les consignes données étaient de concevoir un site web interractif pour un album de musique de notre choix`,
+        description: `Projet scolaire. Les consignes données étaient de concevoir un site web interactif pour un album de musique de notre choix. A ouvrir sous chrome`,
         img: "./media/works_nightVisions.png",
         link: "https://guillaumemeheut.github.io/night-visions/",
       },
